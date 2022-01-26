@@ -1,0 +1,4 @@
+.element__name_outside {
+  grid-column-start: 1;
+  grid-column-end: 4;
+ }

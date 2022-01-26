@@ -1,0 +1,12 @@
+.search__form {
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+@media screen and (max-width: 767px) {
+    .search__form {
+        height: 50px;
+        margin: auto;
+    }
+}

@@ -1,0 +1,5 @@
+.elements {
+    display: grid;
+    grid-template-columns: 100%;
+    row-gap: 15px;
+}

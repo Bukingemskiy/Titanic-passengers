@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="application to view the list of passengers of the Titanic">
+  <meta name="keywords" content="Titanic">
+  <meta name="author" content="Vladislav Avan'kin'">
+  <title>Titanic passengers</title>
+  <link rel="icon" href="./images/Titanic.png" type="image">
+  <link rel="stylesheet" href="./pages/index.css">
+</head>
+
+<body class="page">
+  <header class="header">
+    <img class="header__logo" src="./images/Titanic.png">
+    <h1 class="header__title">Titanic passengers</h1>
+  </header>
+  <main class="content">
+    <section class="search">
+      <form class="search__form">
+        <input class="search__input" type="text" name="search" placeholder="passenger" minLength="1" required />
+        <button class="search__button" type="submit">
+          Search
+        </button>
+      </form>
+    </section>
+    <section class="elements"></section>
+  </main>
+  <footer class="footer">
+    <a class="footer__copyright" href="https://altcraft.com/ru" target="_blank">&copy;</a>
+  </footer>
+  <template class="element-item-template">
+    <article class="element">
+      <div class="element__name element__name_outside">
+        <h2 class="element__title" id="name"></h2>
+      </div>
+      <div class="element__name">
+        <h2 class="element__title" id="gender"></h2>
+      </div>
+      <div class="element__name">
+        <h2 class="element__title" id="age"></h2>
+      </div>
+      <div class="element__name">
+        <h2 class="element__title" id="survived"></h2>
+      </div>
+      <div class="element__name element__name_outside">
+        <h2 class="element__title" id="home"></h2>
+      </div>
+    </article>
+  </template>
+  <script src="./scripts/initial-сards.js"></script>
+  <script src="./scripts/index.js"></script>
+</body>
+
+</html>

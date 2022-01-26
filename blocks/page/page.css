@@ -1,0 +1,21 @@
+.page {
+    background-image: linear-gradient(#181818, #000 );
+    font-family: Inter, Arial, sans-serif;
+    margin: auto;
+    min-width: 282px;
+    max-width: 1440px;
+    min-height: 100vh;
+    padding: 45px 90px;
+}
+
+@media screen and (max-width: 1023px) {
+    .page {
+        padding: 30px 60px;
+    }
+    }
+
+    @media screen and (max-width: 767px) {
+        .page {
+            padding: 15px 30px;
+        }
+        }
