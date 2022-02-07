@@ -1,0 +1,6 @@
+.search__input-error {
+  color: red;
+  display: none;
+  margin-top: 70px;
+  position: absolute;
+}

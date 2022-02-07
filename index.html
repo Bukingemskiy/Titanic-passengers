@@ -19,9 +19,10 @@
   </header>
   <main class="content">
     <section class="search">
-      <form class="search__form">
+      <form class="search__form" novalidate>
         <input class="search__input" type="text" name="search" placeholder="passenger" minLength="1" required />
-        <button class="search__button" type="submit">
+        <span class="search__input-error">Enter at least one symbol</span>
+        <button class="search__button" type="submit" disabled>
           Search
         </button>
       </form>
@@ -50,7 +51,6 @@
       </div>
     </article>
   </template>
-  <script src="./scripts/initial-сards.js"></script>
   <script src="./scripts/index.js"></script>
 </body>
 
